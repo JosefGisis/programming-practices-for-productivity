@@ -1,8 +1,16 @@
 # Productivity Rules for Programming.
 
--   ## One change at a time:
+Hello. My name is Josef Gisis and I am a software developer from New Jersey. This is a list of solutions, reminders, and suggestions to help me avoid the pitfalls I often fall into.
+
+Josef Gisis 10/01/2024
+
+-   ## One Change at a Time.
 
     When troubleshooting a problem, try not to make more than one change at a time as it may obfuscate the cause of the bug. By controlling changes, you can easily track what works and what doesn't.
+
+    ### Example:
+
+    You have been working on a bug for a while and have been attempting multiple solutions. Suddenly, the problem is gone, but now you are not sure what made it work (was it a combination of changes?)
 
 -   ## Stop and think:
 
@@ -11,6 +19,10 @@
 -   ## Read.
 
     Although it is tempting to try to solve an issue through trial and error, it is an inefficient and frustrating way to find the solution. Take a break and look up examples, documentation, and best practices.
+
+    ### Example
+
+    You have imported a button component from some library, and you cannot remember the property for styling the button. Do not
 
 -   ## Take breaks.
 
