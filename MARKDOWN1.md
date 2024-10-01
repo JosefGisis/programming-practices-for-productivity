@@ -1,6 +1,6 @@
 # Markdown Guide
 
-This file is my guide to markdown syntax (it follows the 'Learn new skills' rule. See [Programming Productivity Rules]</README.md> ). It is based on Darsaveli's Readme Markdown Syntax repo. Check out <https://github.com/darsaveli/Readme-Markdown-Syntax?tab=readme-ov-file#fenced-code-blocks>
+This file is my guide to markdown syntax (it follows the 'Learn new skills' rule. See [Programming Productivity Rules](/README.md) ). It is based on Darsaveli's Readme Markdown Syntax repo. Check out <https://github.com/darsaveli/Readme-Markdown-Syntax?tab=readme-ov-file#fenced-code-blocks>
 
 -   Josef Gisis 10/01/2024
 
