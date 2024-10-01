@@ -268,16 +268,18 @@ You won't see anything here because it is a comment. And no. This is not the com
 ```md
 :poop:
 
-:smiling:
+:smiling face:
 
-:sad:
+:sad face:
 ```
 
 :poop:
 
-:smiling:
+:smiling face:
 
-:sad:
+:sad face:
+
+You can also just insert an emoji using your keyboard's or system's emojis (window + . shortcut on Windows).
 
 ---
 
