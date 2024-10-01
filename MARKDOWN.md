@@ -133,3 +133,31 @@ _also italics and **bold**_
 ### Emojis
 
 :poop:
+
+### Code blocks
+
+```js
+console.log('javascript')
+```
+
+```python
+print('python')
+```
+
+```java
+System.out.println('java')
+```
+
+```json
+{
+	"firstName": "A",
+	"lastName": "B",
+	"age": 18
+}
+```
+
+### Dif Syntax
+
+-   added this line
+
+*   removed that line
