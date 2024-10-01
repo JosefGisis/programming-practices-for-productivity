@@ -64,5 +64,4 @@ _also italics and **bold**_
 
 ##### Resizing
 
-<img src="/20221106_001445.jpg" width="100%" height='auto' align="center">
-![extremely menacing chick](/20221106_001445.jpg 'an extremely menacing chick' | width=100)
+<img src="/20221106_001445.jpg" width="60%" height='auto' align="center"/>
