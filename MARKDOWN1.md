@@ -1,6 +1,8 @@
 # Markdown Guide
 
-This file is my guide to markdown syntax (it follows the Learn new skills rule ). It is based on Darsaveli's Readme Markdown Syntax repo. Check out <https://github.com/darsaveli/Readme-Markdown-Syntax?tab=readme-ov-file#fenced-code-blocks>
+This file is my guide to markdown syntax (it follows the 'Learn new skills' rule for programming productivity rules </README.md> ). It is based on Darsaveli's Readme Markdown Syntax repo. Check out <https://github.com/darsaveli/Readme-Markdown-Syntax?tab=readme-ov-file#fenced-code-blocks>
+
+-   Josef Gisis 10/01/2024
 
 ---
 
@@ -102,31 +104,56 @@ For ordered lists
         1. five
         2. six
 
-### Links
+---
 
--   [Link with more info with various formatting options](https://docs.github.com/en/github/writing-on-github 'more info')
--   https://www.google.com/
--   <https://www.google.com/>
+## Links
 
-##### Link Labels: [My link label][the actual link]
+Links are of the format `[link placeholder](linkUrl linkAlt)`.
+You can also use relative URLs if the link is to a sub url on the same page.
 
-##### Links to a url in the repo: [Example document](/example/example.md)
+```md
+-   [My github page](https://github.com/JosefGisis 'My github page')
+-   https://github.com/JosefGisis
+-   <https://github.com/JosefGisis>
+```
 
-### Inserting Images
+-   [My github page](https://github.com/JosefGisis 'My github page')
+-   https://github.com/JosefGisis
+-   <https://github.com/JosefGisis>
 
-![alt](URL 'title')
+---
 
--   alt takes the place of the image if it cannot be diplayed
--   parenthesis contains image source
--   title in quotes indicates the text to display when the mouse hovers over the image (can be omitted)
+## Inserting Images
+
+Images insertion uses the format `![alt](URL 'title')`. alt takes the place of the image if it cannot be diplayed, parenthesis contains image source, and title in quotes indicates the text to display when the mouse hovers over the image (can be omitted)
+
+```md
+![extremely menacing chick](/20221106_001445.jpg 'an extremely menacing chick')
+```
 
 ![extremely menacing chick](/20221106_001445.jpg 'an extremely menacing chick')
 
-##### Resizing
+### Resizing
+
+Images can be resized using the HTML syntax.
+
+```md
+<img src="/20221106_001445.jpg" alt='a smaller image of an extremely menacing chick' width="20%" height='auto'/>
+```
 
 <img src="/20221106_001445.jpg" alt='a smaller image of an extremely menacing chick' width="20%" height='auto'/>
 
-### Tables
+---
+
+## Tables
+
+```md
+| Header1 | Header2 | Header3 |
+| ------- | ------- | ------- |
+| This    | is row  | 1       |
+| This    | is row  | 2       |
+| This    | is row  | 3       |
+```
 
 | Header1 | Header2 | Header3 |
 | ------- | ------- | ------- |
@@ -134,22 +161,53 @@ For ordered lists
 | This    | is row  | 2       |
 | This    | is row  | 3       |
 
-##### Table Alignment
+### Table Alignment
+
+```md
+| Align left |    Centered     | Align right |
+| :--------- | :-------------: | ----------: |
+| col 3 is   | some wordy text |       $1600 |
+```
 
 | Align left |    Centered     | Align right |
 | :--------- | :-------------: | ----------: |
 | col 3 is   | some wordy text |       $1600 |
 
-### Checkboxes
+---
+
+## Checkboxes
+
+```md
+[ ] non-checked checkbox
+[x] checked checkbox
+```
 
 [ ] non-checked checkbox
 [x] checked checkbox
 
-### Quoting Text
+---
+
+## Quoting Text
+
+```md
+> Block quoted text
+```
 
 > Block quoted text
 
-##### Mutli-level block quotting
+---
+
+## Multi-level Block Quoting
+
+```md
+> Quote 1
+>
+> > Quote 2
+> >
+> > > Quote 3
+> > >
+> > > > Quote 4
+```
 
 > Quote 1
 >
@@ -159,52 +217,132 @@ For ordered lists
 > > >
 > > > > Quote 4
 
-### Text Highlighting
+---
 
+## Text Highlighting
+
+Text highlighting gives text a distinct backdrop. It also allows you to use a literal syntax (meaning you can use markdown syntax literally).
+
+```md
 `This text has a glow-up`
+```
 
-### Horizontal Line
+---
+
+## Horizontal Line
+
+There are four options for creating horizontal line.
 
 `___`
 
 `***`
 
+`---`
+
+`<hr>`
+
 ---
 
-<hr>
+## Line Break
 
-### Line Break
+`<br>`
 
-<br>
+---
 
-### Markdown escape
+## MD Comments
 
-```git
- * __ <br> etc
+Markdown comments allow you to leave notes for yourself without it being visible on the rendered md.
+
+```md
+<!-- This is a markdown comment -->
 ```
-
-### Multi-line text
-
-    this should be a multi-line
-    text block.
-
-### MD Comments
 
 <!-- This is a markdown comment -->
 
-### Emojis
+You won't see anything here because it is a comment. And no. This is not the comment. This is a standard line of text I have place to let you know you will not be able to see the comment.
+
+---
+
+## Emojis
+
+```md
+:poop:
+:smiling:
+:sad:
+```
 
 :poop:
+:smiling:
+:sad:
 
-### Code blocks
+---
 
-single backtick
-whitespace
-fourspace
-three backticks
+## Code/Text Blocks
 
+Code/text blocks allow to write literal text. There are four methods for doing and one of them allows you to do pretty cool things with code blocks.
+
+1. Wrap the text with a single backtick: We have seen this earlier under text highlighting.
+2. Prepend the text with a tab.
+3. Prepend the text with four-spaces.
+4. Wrap the text in triple backticks: This is the special method that provides unique features to code blocks
+
+````md
+`this is a text block wrapped
+in a single backtick. We have mentioned
+this syntax earlier`
+
+    This is text block that
+    is prepended by a tab
+
+    This is a text block prepended
+    by four spaces. Depending on how wide
+    you tabs is (mind is four spaces wide)
+    this method and the previous method
+    will look very similar
+
+    ```
+    This method is best suited for
+    code blocks as you will soon
+    see
+    ```
+````
+
+`this is a text block wrapped
+in a single backtick. We have mentioned
+this syntax earlier`
+
+    This is text block that
+    is prepended by a tab
+
+    This is a text block prepended
+    by four spaces. Depending on how wide
+    you tabs is (mind is four spaces wide)
+    this method and the previous method
+    will look very similar
+
+    ```
+    This method is best suited for
+    code blocks as you will soon
+    see
+    ```
+
+### Code Blocks
+
+The triple code block method allows you to highlight and format code blocks by their respective languages. You can do this by add the language right after the first set of backticks. Check this out.
+
+````md
 ```js
 console.log('javascript')
+```
+
+<!-- This is the one I have been using throughout this file to demonstrate the markdown syntax. -->
+
+```md
+# Heading 1
+
+## Heading 2
+
+### Heading 3
 ```
 
 ```python
@@ -223,9 +361,49 @@ System.out.println('java')
 }
 ```
 
-### Diff Syntax
+<!-- diff allows you to mimic the way git displays changes in code -->
 
 ```diff
 + added this bit of code
 - removed this bit of code
+
+```
+````
+
+```js
+console.log('javascript')
+```
+
+<!-- This is the one I have been using throughout this file to demonstrate the markdown syntax. -->
+
+```md
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+```
+
+```python
+print('python')
+```
+
+```java
+System.out.println('java')
+```
+
+```json
+{
+	"firstName": "A",
+	"lastName": "B",
+	"age": 18
+}
+```
+
+<!-- diff allows you to mimic the way git displays changes in code -->
+
+```diff
++ added this bit of code
+- removed this bit of code
+
 ```
