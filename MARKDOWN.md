@@ -64,4 +64,72 @@ _also italics and **bold**_
 
 ##### Resizing
 
-<img src="/20221106_001445.jpg" width="60%" height='auto' align="center"/>
+<img src="/20221106_001445.jpg" alt='a smaller image of an extremely menacing chick' width="20%" height='auto'/>
+
+### Tables
+
+| Header1 | Header2 | Header3 |
+| ------- | ------- | ------- |
+| This    | is row  | 1       |
+| This    | is row  | 2       |
+| This    | is row  | 3       |
+
+##### Table Alignment
+
+| Align left |    Centered     | Align right |
+| :--------- | :-------------: | ----------: |
+| col 3 is   | some wordy text |       $1600 |
+
+### Checkboxes
+
+[] non-checked checkbox
+[x] checked checkbox
+
+### Quoting Text
+
+> Block quoted text
+
+##### Mutli-level block quotting
+
+> Quote 1
+>
+> > Quote 2
+> >
+> > > Quote 3
+> > >
+> > > > Quote 4
+
+### Text Highlighting
+
+`This text has a glow-up`
+
+### Horizontal Line
+
+`___`
+
+`***`
+
+---
+
+<hr>
+
+### Line Break
+
+<br>
+
+### Mardown escape
+
+`git * __ <br> etc`
+
+### Multi-line text
+
+    this should be a multi-line
+    text block.
+
+### MD Comments
+
+<!-- This is a markdown comment -->
+
+### Emojis
+
+:poop:
