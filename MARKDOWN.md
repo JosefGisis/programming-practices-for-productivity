@@ -39,10 +39,10 @@ This file is my guide to markdown syntax (it follows the 'Learn new skills' rule
 ## Font Styles
 
 ```md
-_Italics_
+*Italics*
 _Also italics_
 **Bold**
-**Also bold**
+__Also bold__
 **_Bold and italics_**
 _also italics and **bold**_
 ~~Striked text~~
@@ -352,7 +352,6 @@ The triple code block method allows you to highlight and format code blocks by t
 ```js
 console.log('javascript')
 ```
-````
 
 <!-- This is what I have been using throughout this file to demonstrate the markdown syntax. -->
 
@@ -387,14 +386,11 @@ System.out.println('java')
 - removed this bit of code
 
 ```
-
 ````
 
 ```js
 console.log('javascript')
 ```
-
-<!-- This is the one I have been using throughout this file to demonstrate the markdown syntax. -->
 
 ```md
 # Heading 1
@@ -420,11 +416,8 @@ System.out.println('java')
 }
 ```
 
-<!-- diff allows you to mimic the way git displays changes in code -->
-
 ```diff
 + added this bit of code
 - removed this bit of code
 
 ```
-````

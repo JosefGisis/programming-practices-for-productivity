@@ -1,6 +1,6 @@
-# Productivity Rules for Programming.
+# Best Practices for Productivity
 
-Hello. My name is Josef Gisis and I am a software developer from New Jersey. This is a list of solutions, reminders, and suggestions to help me avoid the pitfalls I often fall into.
+Here are some solutions, reminders, and suggestions to get the most out of your time while programming.
 
 Josef Gisis 10/01/2024
 
@@ -50,6 +50,6 @@ Josef Gisis 10/01/2024
 
     While the code may be obvious to you now, you will probably forget a lot of it pretty soon. It is especially important to leave documentation for code that solves some non-obvious issue because you may delete it later when you have forgotten why it was there. Plus it never hurts to have more documentation (unless it is inaccurate).
 
--   ## Don't make the same mistake twice.
+-   ## Don't Make the Same Mistake Twice.
 
     You can stay positive knowing all your mistakes and detours are a lesson; that is, if you actually learn from you mistakes.
