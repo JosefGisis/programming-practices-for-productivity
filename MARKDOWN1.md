@@ -1,8 +1,24 @@
 # Markdown Guide
 
-This file contains syntax for markdown. It is based on Darsaveli's Readme Markdown Syntax repo. Check out <https://github.com/darsaveli/Readme-Markdown-Syntax?tab=readme-ov-file#fenced-code-blocks>
+This file is my guide to markdown syntax (it follows the Learn new skills rule ). It is based on Darsaveli's Readme Markdown Syntax repo. Check out <https://github.com/darsaveli/Readme-Markdown-Syntax?tab=readme-ov-file#fenced-code-blocks>
 
-### Headers
+---
+
+## Headers
+
+```md
+# Heading1
+
+## Heading2
+
+### Heading3
+
+#### Heading4
+
+##### Heading5
+
+###### Heading6
+```
 
 # Heading1
 
@@ -18,6 +34,11 @@ This file contains syntax for markdown. It is based on Darsaveli's Readme Markdo
 
 ### Font Styles
 
+---
+
+## Font Styles
+
+```md
 _Italics_
 _Also italics_
 **Bold**
@@ -25,8 +46,36 @@ _Also italics_
 **_Bold and italics_**
 _also italics and **bold**_
 ~~Striked text~~
+```
 
-### Unordered Lists
+_Italics_
+
+_Also italics_
+
+**Bold**
+
+**Also bold**
+
+**_Bold and italics_**
+
+_also italics and **bold**_
+
+~~Striked text~~
+
+---
+
+## Bulleted Lists
+
+For unordered lists
+
+```md
+-   item1
+-   item2
+    -   subitem 1-1
+    -   subitem 1-2
+        -   subitem 1-2-1
+        -   subitem 1-2-2
+```
 
 -   item1
 -   item2
@@ -35,7 +84,16 @@ _also italics and **bold**_
         -   subitem 1-2-1
         -   subitem 1-2-2
 
-### Ordered Lists
+For ordered lists
+
+```md
+1. first
+2. second
+    1. third
+    2. four
+        1. five
+        2. six
+```
 
 1. first
 2. second
