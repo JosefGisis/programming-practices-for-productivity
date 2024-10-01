@@ -1,4 +1,4 @@
-# Best Practices for Productivity
+# Programming Practices for Productivity
 
 Here are some solutions, reminders, and suggestions to get the most out of your time while programming.
 
