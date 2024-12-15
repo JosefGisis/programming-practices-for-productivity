@@ -8,6 +8,10 @@ Josef Gisis 10/01/2024
 
     When troubleshooting a problem, try not to make more than one change at a time as it may obfuscate the cause of the bug. By controlling changes, you can easily track what works and what doesn't.
 
+-   ## Make Meaningful changes.
+
+    If you are unsure how to proceed, focus on the most meaningful change you can make right now instead of focusing on low-hanging fruit. The most meaningful change may be the most daunting part of the problem, but once you tackle it, everything else may fall in place.
+
 -   ## Stop and Think.
 
     Pride and irritation clouds your judgement. Rather than attempting to storm the fortress again and again, stop, back-off, and try to calmly assess the situation.
@@ -42,6 +46,10 @@ Josef Gisis 10/01/2024
 
     Spend as much time as needed to build a solid foundation for your app following best practices and design patterns. This will make your app easier to extend and modify. Your future self will thank you.
 
+-   ## Think About the Problem Before the Solution.
+
+    Take time to think about the underlying problem. Even if you think you see a solution, spending time analyzing the fundamental issue you are trying to resolve may reveal a flaw in your initial plan or it may reveal a better solution. 
+
 -   ## Don't Get Caught on the Details.
 
     Before getting into the nitty gritty details of you code, try to get its general structure and logic in place. If your app's structure is robust and clear, all the details will fall into place. Before spending time on refining you code and adding documentation, make sure it actually works and that your program's structure will remain relatively stable; otherwise, your work may be for naught.
@@ -53,3 +61,4 @@ Josef Gisis 10/01/2024
 -   ## Don't Make the Same Mistake Twice.
 
     You can stay positive knowing all your mistakes and detours are a lesson; that is, if you actually learn from you mistakes.
+
